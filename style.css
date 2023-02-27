@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: rgb(242, 153, 143);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  width: 90%;
+  margin: 10px;
+  max-width: 450px;
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 28px;
+  border-radius: 7px;
+  box-shadow: 0 10 10 rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 16px;
+
+  font-weight: 400;
+}
+
+.heading {
+  font-size: 28px;
+  letter-spacing: 4px;
+}
+
+.input {
+  height: 53px;
+  width: 300px;
+  background-color: rgb(255, 255, 255, 0.6);
+  border-color: rgb(255, 255, 255, 0.4);
+  padding: 0 42px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline-color: black;
+}
+
+.info-text {
+}
+
+.meaning-container {
+  display: none;
+}
+
+.title {
+}
+
+.meaning {
+}
